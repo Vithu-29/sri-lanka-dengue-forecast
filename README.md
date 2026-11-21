@@ -1,8 +1,11 @@
 # Sri Lanka Dengue Forecast
 
 ## Project question
-Can previous weekly dengue case counts help predict the following week's
-reported cases in Colombo?
+How accurately can we forecast next week's reported dengue cases for each
+district in Sri Lanka using historical weekly dengue reports?
+
+The dashboard will let users select a district, view its reported case
+history, and compare forecasts from Random Forest, XGBoost and stacking.
 
 ## Data
 I plan to use the `srilanka_weekly_data` dataset from the `denguedatahub`
